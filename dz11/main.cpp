@@ -23,7 +23,7 @@ std::string DecoderCeasar(const std::string& str, int shift)
 	return result;
 }
 
-std::string EncryptorColumn(const std::string& str, int column)
+std::string EncryptorColumn(const std::string& str, size_t column)
 {
 	std::string result;
 	size_t size_temp_str = 0;
